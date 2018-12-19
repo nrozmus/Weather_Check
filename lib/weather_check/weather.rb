@@ -1,1 +1,2 @@
-class WeatherCheck::weather 
+class WeatherCheck::Weather
+end
