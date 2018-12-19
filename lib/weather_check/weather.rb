@@ -1,0 +1,1 @@
+class WeatherCheck::weather 
