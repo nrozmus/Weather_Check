@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nicholas Rozmus"]
   spec.email         = ["rozmusnicholas@gmail.com"]
 
-  spec.summary       = %q{ Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{ Write a longer description or delete this line.}
+  spec.summary       = %q{ Gives the current temperature and expected nighttime temperature of New York, NY and Los Angeles, CA.}
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

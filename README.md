@@ -1,6 +1,6 @@
-# WeatherCheck
+# Weather_Check
 
-This gem pulls weather from multiple locations. It is able to pull current weather and future forecast data.
+This gem pulls current weather and expected nighttime weather from New York, NY and Los Angeles, California.
 
 ## Installation
 
@@ -20,8 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Another way to get ahold of this is to Git clone this to your environment of choice.
+CD your terminal into weather_check
+execute command bin/weather_check
 
+Executing bin/weather_check will prompt the weather forecaster to begin.
+It offers current temperature and expected nighttime temperature for New York, NY and Los Angeles, California.
+These are two popular and densely populated areas so I can imagine this coming in handy to check current temperature and compare it to expected nighttime temperature.
+
+Upon running it will prompt you with a few options. For NY temperature you can enter "1" and for CA temperature you can enter "2".
+To see the menu again enter "menu". To exit, enter "exit". Any other commands will prompt the program to not understand you and will offer valid commands such as listed above.
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
