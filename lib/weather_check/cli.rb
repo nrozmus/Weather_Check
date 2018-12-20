@@ -20,20 +20,27 @@ def menu
   while input != "exit"
   puts "Enter 1 for NY weather, 2 for CA weather."
   input = gets.strip.downcase
+
+  #if input.to_i > 0
+    the_weather = @weathers[input.to_i-1]
+  #  puts "The weather in NY is #{the_weather.temperature}"
+  #elsif input == "list"
+  #  list_deals
+#  else
   case input
   when "1"
-    puts "The temperature of NY is...#{weather.temperature}"
+   puts "The temperature of NY is...#{the_weather.temperature}"
   when "2"
-    puts "The temperature of CA is...#{weather.temperature}"
+    puts "The temperature of CA is...#{the_weather.temperature}"
   when "menu"
      menu
-   else
+  else
      puts "No clue what you're talking about, type menu or exit or pick a number."
   end
   end
 end
 
-def
+
 
     def goodbye
       puts "See you tomorrow for more weather reports!!!"
