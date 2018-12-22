@@ -26,7 +26,7 @@ execute command bin/weather_check
 
 Executing bin/weather_check will prompt the weather forecaster to begin.
 It offers current temperature and expected nighttime temperature for New York, NY and Los Angeles, California.
-These are two popular and densely populated areas so I can imagine this coming in handy to check current temperature and compare it to expected nighttime temperature.
+These are two popular and densely populated areas so I can imagine this coming in handy for many to check current temperature and compare it to expected nighttime temperature.
 
 Upon running it will prompt you with a few options. For NY temperature you can enter "1" and for CA temperature you can enter "2".
 To see the menu again enter "menu". To exit, enter "exit". Any other commands will prompt the program to not understand you and will offer valid commands such as listed above.
