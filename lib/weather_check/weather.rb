@@ -19,7 +19,7 @@ class WeatherCheck::Weather
         def self.scrape_ny
           doc = Nokogiri::HTML(open("https://www.accuweather.com/en/us/new-york-ny/10007/current-weather/349727"))
 
-          weather = self.new #initializes object
+          weather = self.new
           weather.temperature = doc.search("span.large-temp").first.text.strip #current temp
           weather.low = doc.search("span.small-temp").slice(1,3).first.text.strip #expected low temp
           weather.city = "New York"
